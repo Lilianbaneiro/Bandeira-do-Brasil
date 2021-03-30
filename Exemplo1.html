@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Minha Bandeira do Brasil:</h1>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #2ce015;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95,50,40,0,2*Math.PI);
+ctx.stroke();
+
+var d = document.getElementById("myCanvas");
+var dtx = d.getContext("2d");
+dtx.moveTo(0, 50);
+dtx.lineTo(100, 100);
+dtx.stroke();
+
+var e = document.getElementById("myCanvas");
+var etx = e.getContext("2d");
+etx.moveTo(200,50);
+etx.lineTo(100,100);
+etx.stroke();
+
+var f = document.getElementById("myCanvas");
+var ftx = f.getContext("2d");
+ftx.moveTo(0,50);
+ftx.lineTo(100,0);
+ftx.stroke();
+
+var g = document.getElementById("myCanvas");
+var gtx = g.getContext("2d");
+gtx.moveTo(200,50);
+gtx.lineTo(100,0);
+gtx.stroke();
+
+
+</script> 
+
+
+
+
+</body>
+</html>
